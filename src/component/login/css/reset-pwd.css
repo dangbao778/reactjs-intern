@@ -1,0 +1,62 @@
+.container-left{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(240, 232, 232);
+    position: absolute;
+}
+.container-left div img{
+    width: 170px;
+    height: 136px;
+    left: 230px;
+    top: 82px;
+    position: absolute;
+}
+.reset-pwd .container-left div p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #282739;
+    margin-left: 30%;
+}
+.reset-pwd form{
+    position: absolute;
+    text-align: left;
+    left: 60px;
+    top: 300px;
+    align-items: center;
+    padding: 10px 24px;
+}
+.reset-form .icon {
+    float: right;
+    margin-bottom: -50px;
+    position: relative;
+    color: #7E7D88;
+}
+.reset-pwd .reset-form div{
+    padding: 2%;
+}
+.reset-form div input{
+    border-radius: 5px;
+    padding: 10px 270px 10px 12px;
+    left: 208px;
+    top: 82px;
+}
+.reset-pwd .reset-form div button{
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    background: #FF9138;
+    padding: 10px 24px;
+    text-align: center;
+    margin-left: 35%;
+    color: white;
+}
+
+
+.container-right{
+    width: 60%;
+    position: absolute;
+    left: 671px;
+    top: 112.94px;
+}

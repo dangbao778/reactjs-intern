@@ -1,0 +1,85 @@
+.container-left{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(240, 232, 232);
+    position: absolute;
+}
+.container-left div img{
+    width: 170px;
+    height: 136px;
+    left: 208px;
+    top: 82px;
+    position: absolute;
+}
+.login form{
+    position: absolute;
+    text-align: left;
+    left: 60px;
+    top: 300px;
+    align-items: center;
+    padding: 10px 24px;
+}
+.login-form .icon {
+    float: right;
+    margin-bottom: -50px;
+    position: relative;
+    color: #7E7D88;
+}
+.login .login-form div{
+    padding: 2%;
+}
+.login-form div input{
+    border-radius: 5px;
+    padding: 10px 270px 10px 12px;
+    left: 208px;
+    top: 82px;
+}
+.login form .fg-pass{
+    font-size: 14px;
+    line-height: 21px;
+    color: #E73F3F;
+}
+.login .login-form div button{
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    background: #FF9138;
+    padding: 10px 24px;
+    text-align: center;
+    margin-left: 30%;
+    color: white;
+}
+
+
+.container-right{
+    width: 60%;
+    position: absolute;
+    left: 671px;
+    top: 112.94px;
+}
+.container-right .container-text {
+    font-family: Nunito;
+    font-style: normal;
+    text-align: left;
+    color: #FF7506;
+}
+.container-right .container-text p{
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 51px;
+    position: absolute;
+    width: 142px;
+    height: 54px;
+    left: 660px;
+    top: 250px;
+}
+.container-right .container-text .text {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 900;
+    font-style: bold;
+    position: absolute;
+    width: 361px;
+    height: 54px;
+    left: 660px;
+    top: 350px;
+}

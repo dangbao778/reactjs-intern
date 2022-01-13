@@ -1,0 +1,55 @@
+.container-left{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+}
+.container-left div img{
+    width: 170px;
+    height: 136px;
+    left: 208px;
+    top: 82px;
+    position: absolute;
+}
+.forget-pwd form{
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    align-items: center;
+}
+.forget-pwd form  div input{
+    padding: 10px 270px 10px 12px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.forget-pwd form  div p{
+    text-align: center;
+}
+.forget-pwd form div button{
+    color: #FFFFFF;
+    box-shadow: 0px 0px 1px #f1f4ff;
+    border-radius: 8px;
+    padding: 0px 40px;
+    margin: 5% 5% 0 1%;
+    text-align: center;
+}
+.forget-pwd form .continue{
+    background: #FF9138;;
+}
+.forget-pwd form .cancel{
+    background: #FFFFFF;
+    color: #FF9138;
+}
+.email-form .container-text .title{
+    font-weight: bold;
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: -50px;
+}
+
+.container-right{
+    width: 60%;
+    height: 80%;
+}
