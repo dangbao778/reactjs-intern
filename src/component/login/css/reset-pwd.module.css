@@ -1,17 +1,17 @@
-.container-left{
+.containerLeft{
     width: 40%;
     height: 100vh;
     background-color: rgb(240, 232, 232);
     position: absolute;
 }
-.container-left div img{
-    width: 170px;
-    height: 136px;
+.containerLeft div img{
+    width: 30%;
+    height: 20%;
     left: 230px;
     top: 82px;
     position: absolute;
 }
-.reset-pwd .container-left div p{
+.resetPwd .containerLeft div p{
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
@@ -20,7 +20,7 @@
     color: #282739;
     margin-left: 30%;
 }
-.reset-pwd form{
+.resetPwd form{
     position: absolute;
     text-align: left;
     left: 60px;
@@ -28,33 +28,35 @@
     align-items: center;
     padding: 10px 24px;
 }
-.reset-form .icon {
+.resetForm .icon {
     float: right;
     margin-bottom: -50px;
     position: relative;
     color: #7E7D88;
 }
-.reset-pwd .reset-form div{
+.resetPwd .resetForm div{
     padding: 2%;
 }
-.reset-form div input{
+.resetForm div input{
     border-radius: 5px;
     padding: 10px 270px 10px 12px;
     left: 208px;
     top: 82px;
+    border: 1px solid #E7E9F2;
 }
-.reset-pwd .reset-form div button{
+.resetPwd .resetForm div button{
     box-shadow: 0px 0px 6px #E7E9F2;
+    border: 1px;
     border-radius: 8px;
     background: #FF9138;
-    padding: 10px 24px;
+    padding: 10px 30px;
     text-align: center;
     margin-left: 35%;
     color: white;
 }
 
 
-.container-right{
+.containerRight{
     width: 60%;
     position: absolute;
     left: 671px;
