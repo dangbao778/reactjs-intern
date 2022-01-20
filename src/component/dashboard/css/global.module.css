@@ -1,0 +1,10 @@
+.app {
+    width: 100%;
+    height: 100%;
+}
+.app .container{
+    float: right;
+    width: 40%;
+    position: absolute;
+    margin-left: 60%;
+}

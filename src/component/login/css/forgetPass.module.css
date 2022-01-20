@@ -1,6 +1,7 @@
 .containerLeft{
+    float: left;
     width: 40%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(246, 246, 246);
     position: absolute;
 }
@@ -16,6 +17,7 @@
     left: 60px;
     top: 300px;
     align-items: center;
+    text-align: center;
 }
 .forgetPw form  div input{
     padding: 10px 270px 10px 12px;
@@ -23,9 +25,6 @@
     border: 1.5px solid #D4D4D7;
     box-sizing: border-box;
     border-radius: 8px;
-}
-.forgetPw form  div p{
-    text-align: center;
 }
 .forgetPw form div button{
     color: #FFFFFF;
@@ -54,11 +53,14 @@
 }
 
 .containerRight{
-    position: absolute;
+    float: right;
     width: 60%;
-    height: 80%;
+    height: 100%;
+    
+    
 }
 .containerRight img{
-    margin-left: 800px;
-    margin-top: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
 }

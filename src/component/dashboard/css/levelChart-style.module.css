@@ -1,0 +1,330 @@
+.app .container{
+    width: 60%;
+    height: 100%;
+}
+.app .container .levelChart{
+    display: flex;
+    flex-direction: column;
+}
+.app .container .containerGrantNumber{
+    position: absolute;
+    width: 10%;
+    height: 13%;
+    top: 20%;
+    left: 17%;
+    background: rgb(245, 241, 241);
+    border-radius: 10px;
+}
+.app .container .levelChart .content span{
+    position: static;
+    width: 102px;
+    height: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #FF9138;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+.app .container .title span{
+    position: absolute;
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 6%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+}
+.app .container .containerGrantNumber .grantNumber .grantNumberCircle img{
+    padding: 10px 12px;
+}
+.app .container .containerGrantNumber .grantNumber .grantNumberCircle .grantNumberGroup{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+.app .container .containerGrantNumber .grantNumber .grantNumberCircle span{
+    position: absolute;
+    width: 60px;
+    height: 36px;
+    left: 72.02px;
+    top: 14px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.app .container .containerGrantNumber span{
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    left: 12px;
+    top: 68px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #535261;
+}
+
+.app .container .containerGrantNumber .ratio{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 70%;
+    top: 70%;
+    background: rgba(255, 149, 1, 0.15);
+    border-radius: 7.18115px;
+}
+.app .container .containerGrantNumber .ratio img{
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    bottom: -25.01%;
+}
+.app .container .containerGrantNumber .ratio span{
+    position: absolute;
+    width: 29px;
+    height: 12px;
+    top: 15%;
+    left: 30%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #FF9138;
+}
+
+
+
+.app .container .containerUsedNumber{
+    position: absolute;
+    width: 10%;
+    height: 13%;
+    top: 20%;
+    left: 28%;
+    background: rgb(245, 241, 241);
+    border-radius: 10px;
+}
+.app .container .containerUsedNumber .usedNumber .usedNumberCircle img{
+    padding: 10px 12px;
+}
+.app .container .containerUsedNumber .usedNumber .usedNumberCircle .usedNumberGroup{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+.app .container .containerUsedNumber .usedNumber .usedNumberCircle span{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 72.02px;
+    top: 14px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.app .container .containerUsedNumber span{
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    left: 12px;
+    top: 68px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #535261;
+}
+
+.app .container .containerUsedNumber .ratio{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 70%;
+    top: 70%;
+    background: rgba(231, 63, 63, 0.15);
+    border-radius: 7.18115px;
+}
+.app .container .containerUsedNumber .ratio img{
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    bottom: -25.01%;
+}
+.app .container .containerUsedNumber .ratio span{
+    position: absolute;
+    width: 29px;
+    height: 12px;
+    top: 15%;
+    left: 30%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #E73F3F;
+}
+
+.app .container .containerWaittingNumber{
+    position: absolute;
+    width: 10%;
+    height: 13%;
+    top: 20%;
+    left: 39%;
+    background: rgb(245, 241, 241);
+    border-radius: 10px;
+}
+.app .container .containerWaittingNumber .waittingNumber .waittingNumberCircle img{
+    padding: 10px 12px;
+}
+.app .container .containerWaittingNumber .waittingNumber .waittingNumberCircle .waittingNumberGroup{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+.app .container .containerWaittingNumber .waittingNumber .waittingNumberCircle span{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 72.02px;
+    top: 14px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.app .container .containerWaittingNumber span{
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    left: 30px;
+    top: 68px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #535261;
+}
+
+.app .container .containerWaittingNumber .ratio{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 70%;
+    top: 70%;
+    background: rgba(231, 63, 63, 0.15);
+    border-radius: 7.18115px;
+}
+.app .container .containerWaittingNumber .ratio img{
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    bottom: -25.01%;
+}
+.app .container .containerWaittingNumber .ratio span{
+    position: absolute;
+    width: 29px;
+    height: 12px;
+    top: 15%;
+    left: 30%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #E73F3F;
+}
+
+
+.app .container .containerMissedNumber{
+    position: absolute;
+    width: 10%;
+    height: 13%;
+    top: 20%;
+    left: 50%;
+    background: rgb(245, 241, 241);
+    border-radius: 10px;
+}
+.app .container .containerMissedNumber .missedNumber .missedNumberCircle img{
+    padding: 10px 12px;
+}
+.app .container .containerMissedNumber .missedNumber .missedNumberCircle .missedNumberGroup{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+.app .container .containerMissedNumber .missedNumber .missedNumberCircle span{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 72.02px;
+    top: 14px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.app .container .containerMissedNumber span{
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    left: 16px;
+    top: 68px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #535261;
+}
+
+.app .container .containerMissedNumber .ratio{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 70%;
+    top: 70%;
+    background: rgba(231, 63, 63, 0.15);
+    border-radius: 7.18115px;
+}
+.app .container .containerMissedNumber .ratio img{
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    bottom: -25.01%;
+}
+.app .container .containerMissedNumber .ratio span{
+    position: absolute;
+    width: 29px;
+    height: 12px;
+    top: 15%;
+    left: 30%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #E73F3F;
+}

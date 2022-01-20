@@ -20,14 +20,19 @@
     align-items: center;
     padding: 10px 24px;
 }
-.loginForm .icon {
+.loginForm .icon i {
     float: right;
-    margin-bottom: -50px;
+    margin-top: -30px;
     position: relative;
     color: #7E7D88;
+    margin-right: 10px;
 }
-.login .loginForm div{
-    padding: 2%;
+.loginForm .icon i:hover{
+    color: rgb(0,0,0);
+    cursor: pointer;
+}
+.loginForm .usename {
+    margin-bottom: 3%;
 }
 .loginForm div input{
     border: solid #e7e6f0 ;
@@ -36,10 +41,11 @@
     left: 208px;
     top: 82px;
 }
-.login form .fgPass{
+.login form .fgPass div Link p{
     font-size: 14px;
     line-height: 21px;
     color: #E73F3F;
+    text-decoration: none;
 }
 .login .loginForm div button{
     border: 1px solid #FFFFFF;
@@ -60,8 +66,10 @@
     display: flex;
 }
 .containerRight div img{
-    margin-left: 800px;
-    margin-top: 10%;
+    display: flex;
+    position: absolute;
+    left: 48%;
+    top: 10%;
 }
 .containerRight .containerText {
     display: flex;
@@ -76,8 +84,8 @@
     line-height: 51px;
     position: absolute;
     width: 20%;
-    left: 63%;
-    top: 40%;
+    left: 68%;
+    top: 38%;
 }
 .containerRight .containerText .text p {
     font-size: 35px;
@@ -85,6 +93,6 @@
     font-weight: bold;
     position: absolute;
     height: 54px;
-    left: 63%;
-    top: 45%;
+    left: 68%;
+    top: 43%;
 }

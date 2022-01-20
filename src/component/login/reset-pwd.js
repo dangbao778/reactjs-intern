@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 // import './css/reset-pwd.css';
-import logo from './image/Logoalta.png';
-import background from './image/Frame.png';
+import logo from '../img/Logoalta.png';
+import background from '../img/Frame.png';
 import reset from './css/reset-pwd.module.css';
 import { BrowserRouter as Router, Route, Routes,Switch, Link } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ render(){
                     <div><p>Đặt lại mật khẩu mới</p></div>
                     <div>
                         <label>Mật khẩu</label><br /><div className={reset.icon}><i class="far fa-eye-slash"></i></div>
-                        <input className='password' type="text"/><br />
+                        <input className='password' type="password"/><br />
                     </div>
                     <div>
                         <label>Nhập lại mật khẩu</label><br /><div className={reset.icon}><i class="far fa-eye-slash"></i></div>
