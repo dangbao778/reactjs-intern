@@ -29,7 +29,7 @@ render(){
                     <div className={menu.logout}><i class="fas fa-sign-out-alt"></i><a><Link to='/login'>Đăng xuất</Link></a></div>
                 </div>
             </div>
-            <div className={menu.InfocontainerRight}>
+            {/* <div className={menu.InfocontainerRight}>
                 <div className={menu.containerRightcontent}>
                 <div className={menu.content}><label>Thông tin cá nhân</label></div>
                     <div className={menu.Infoaccount}>
@@ -41,7 +41,7 @@ render(){
                         <div className={menu.icon}><i class="fas fa-bell"></i></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
         );
     }

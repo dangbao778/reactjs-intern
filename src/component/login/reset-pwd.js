@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React, { useEffect, useState } from "react";
 // import './css/reset-pwd.css';
 import logo from '../img/Logoalta.png';
 import background from '../img/Frame.png';
 import reset from './css/reset-pwd.module.css';
 import { BrowserRouter as Router, Route, Routes,Switch, Link } from 'react-router-dom';
 
-class ResetPass extends Component {
-render(){
+export default function ResetPass() {
+    const [passwordShown, setPasswordShown] = useState(false);
+    const togglePasswordVisiblity = () => {
+    setPasswordShown(passwordShown ? false : true);
+    };
     return (
         <div className={reset.resetPwd}>
             <div className={reset.containerLeft}>
@@ -14,12 +17,18 @@ render(){
                 <form className={reset.resetForm}>
                     <div><p>Đặt lại mật khẩu mới</p></div>
                     <div>
-                        <label>Mật khẩu</label><br /><div className={reset.icon}><i class="far fa-eye-slash"></i></div>
-                        <input className='password' type="password"/><br />
+                        <label>Mật khẩu</label><br />
+                        <input type={passwordShown ? "text" : "password"}
+                            placeholder='Password'
+                            name='password'/>
+                            <div className={reset.icon}><i onClick={togglePasswordVisiblity} class="far fa-eye-slash"></i></div><br />
                     </div>
                     <div>
-                        <label>Nhập lại mật khẩu</label><br /><div className={reset.icon}><i class="far fa-eye-slash"></i></div>
-                        <input className='rest-pwd' type="password"></input>
+                        <label>Nhập lại mật khẩu</label><br />
+                        <input type={passwordShown ? "text" : "password"}
+                            placeholder='Password'
+                            name='password' />
+                            <div className={reset.icon}><i onClick={togglePasswordVisiblity} class="far fa-eye-slash"></i></div>
                     </div>
                     <div>
                     <button><Link to='/login'>Xác nhận</Link></button>
@@ -31,7 +40,4 @@ render(){
             </div>                
         </div>
     );
-    }
 }
-
-export default ResetPass;

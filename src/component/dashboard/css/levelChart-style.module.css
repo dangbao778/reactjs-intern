@@ -1,10 +1,13 @@
 .app .container{
     width: 60%;
     height: 100%;
+    background: #B1B1B1;
 }
+
 .app .container .levelChart{
     display: flex;
     flex-direction: column;
+    
 }
 .app .container .containerGrantNumber{
     position: absolute;
@@ -12,15 +15,15 @@
     height: 13%;
     top: 20%;
     left: 17%;
-    background: rgb(245, 241, 241);
+    background:  #FFFFFF;
     border-radius: 10px;
 }
-.app .container .levelChart .content span{
+/* .app .container .levelChart .content span{
     position: static;
     width: 102px;
     height: 30px;
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 10%;
     color: #FF9138;
 
     font-family: Nunito;
@@ -28,7 +31,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-}
+} */
 .app .container .title span{
     position: absolute;
     float: left;
@@ -115,7 +118,7 @@
     height: 13%;
     top: 20%;
     left: 28%;
-    background: rgb(245, 241, 241);
+    background: #FFFFFF;
     border-radius: 10px;
 }
 .app .container .containerUsedNumber .usedNumber .usedNumberCircle img{
@@ -188,7 +191,7 @@
     height: 13%;
     top: 20%;
     left: 39%;
-    background: rgb(245, 241, 241);
+    background: #FFFFFF;
     border-radius: 10px;
 }
 .app .container .containerWaittingNumber .waittingNumber .waittingNumberCircle img{
@@ -262,7 +265,7 @@
     height: 13%;
     top: 20%;
     left: 50%;
-    background: rgb(245, 241, 241);
+    background: #FFFFFF;
     border-radius: 10px;
 }
 .app .container .containerMissedNumber .missedNumber .missedNumberCircle img{

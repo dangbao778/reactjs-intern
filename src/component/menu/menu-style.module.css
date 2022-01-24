@@ -94,6 +94,10 @@
     color: #FFAC6A;
     background: #FFF2E7;
 }
+.app .InfocontainerRight .containerRightcontent{
+    width: 100%;
+    height: 10%;
+}
 .app .InfocontainerRight .containerRightcontent .content label{
     position: absolute;
     width: 168px;

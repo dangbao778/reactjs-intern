@@ -2,9 +2,386 @@
     width: 100%;
     height: 100%;
 }
+.app .topBar{
+    width: 100%;
+    height: 10%;
+    background: #F7F7F7;
+}
+.app .topBar .content label{
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    top: 5px;
+    float: left;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF9138;
+    padding: 12px 24px;
+    background: #FFFFFF;;
+}
 .app .container{
     float: right;
-    width: 40%;
+    width: 25%;
+    height: 100%;
     position: absolute;
-    margin-left: 60%;
+    margin-left: 75%;
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    background: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+}
+.app .container .Infoaccount{
+    margin: 0% 6% 0 2%;
+}
+.app .container .Infoaccount div{
+    float: right;
+}
+.app .container .Infoaccount .nameAccount .name{
+    width: 124px;
+    height: 24px;
+    right: 0px;
+    top: 18px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+}
+.app .container .Infoaccount .nameAccount .hello{
+    
+    width: 100px;
+    height: 18px;
+    right: 55px;
+    top: 0px;
+    position: absolute;
+    
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+.app .container .Infoaccount img{
+    float: right;
+    margin: 2% 2% 0% 0 ;
+}
+.app .container .Infoaccount .icon{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    color: #FFAC6A;
+}
+.app .container .Infoaccount .background{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+    background: #FFF2E7;
+    border-radius: 32px;
+}
+.app .container .title span{
+    position: absolute;
+    margin: 20% 5%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+}
+.app .container .all {
+    padding: 12px;
+    display: flex;
+}
+.app .container .monitor{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    margin-top: 30%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}
+.app .container .monitor .statusMonitor{
+    display: flex;
+}
+.app .container .monitor .statusMonitor .middle_overview .number span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    width: 64px;
+    height: 36px;
+    left: 88px;
+    top: 14px;
+}
+.app .container .monitor .statusMonitor .middle_overview .number .title{
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 88px;
+    top: 47px;
+    color: #FF7506;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.app .container .monitor .statusMonitor .right_overview{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7E7D88;
+}
+.app .container .monitor .statusMonitor .right_overview .active_1 span{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 200px;
+    top: 18px;
+}
+.app .container .monitor .statusMonitor .right_overview .number_right_1 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 350px;
+    top: 19px;
+    color: #FF7506;
+}
+.app .container .monitor .statusMonitor .right_overview .stop_work_1 span{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    left: 200px;
+    top: 44px;
+}
+.app .container .monitor .statusMonitor .right_overview .number_right_2 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 350px;
+    top: 45px;
+    color: #FF7506;
+}
+.app .container .service{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    margin-top: 55%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}
+.app .container .service .statusService{
+    display: flex;
+}
+.app .container .service .statusService .middle_overview .number span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    width: 64px;
+    height: 36px;
+    left: 88px;
+    top: 14px;
+}
+.app .container .service .statusService .middle_overview .number .title{
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 88px;
+    top: 47px;
+    color: #4277FF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.app .container .service .statusService .right_overview{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7E7D88;
+}
+.app .container .service .statusService .right_overview .active_1 span{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 200px;
+    top: 18px;
+}
+.app .container .service .statusService .right_overview .number_right_1 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 350px;
+    top: 19px;
+    color: #4277FF;
+}
+.app .container .service .statusService .right_overview .stop_work_1 span{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    left: 200px;
+    top: 44px;
+}
+.app .container .service .statusService .right_overview .number_right_2 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 350px;
+    top: 45px;
+    color: #4277FF;
+}
+.app .container .level{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    margin-top: 80%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}
+.app .container .level .statusLevel{
+    display: flex;
+}
+.app .container .level .statusLevel .middle_overview .number span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    width: 64px;
+    height: 36px;
+    left: 88px;
+    top: 23px;
+}
+.app .container .level .statusLevel .middle_overview .number .title{
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 88px;
+    top: 55px;
+    color: #35C75A;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.app .container .level .statusLevel .right_overview{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7E7D88;
+}
+.app .container .level .statusLevel .right_overview .waiting_3 span{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 200px;
+    top: 18px;
+}
+.app .container .level .statusLevel .right_overview .number_right_1 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 350px;
+    top: 19px;
+    color: #35C75A;
+}
+.app .container .level .statusLevel .right_overview .used_3 span{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    left: 200px;
+    top: 44px;
+}
+.app .container .level .statusLevel .right_overview .number_right_2 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 350px;
+    top: 45px;
+    color: #35C75A;
+}
+.app .container .level .statusLevel .right_overview .skip_3 span{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    left: 200px;
+    top: 70px;
+}
+.app .container .level .statusLevel .right_overview .number_right_3 span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 350px;
+    top: 70px;
+    color: #35C75A;
+}
+.app .calendar{
+    position: absolute;
+    width: 353px;
+    height: 336px;
+    margin-top: 90%;
+    margin-left: 5%;
 }

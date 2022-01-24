@@ -3,8 +3,8 @@ import dashboard from './css/dashboard-style.module.css';
 import { BrowserRouter as Router, Route, Routes,Switch, Link } from 'react-router-dom';
 import Menu from '../menu/menu';
 import Chart from './levelChart';
-import Calendars from './Calender';
-import Global from './global';
+
+import Overview from './Overview';
 
 
 class Dashboard extends Component {
@@ -18,7 +18,7 @@ render(){
             <Chart />
             {/* <Calendars /> */}
             <div className={dashboard.containerRight}>
-                <Global />
+                <Overview />
             </div>
         </div>
         );

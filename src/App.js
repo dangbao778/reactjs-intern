@@ -4,7 +4,6 @@ import Login from './component/login/login';
 import ResetPass from './component/login/reset-pwd';
 import ForgetPass from './component/login/forgot-pass';
 import { BrowserRouter as Router, Route, Routes,Switch,Link } from 'react-router-dom';
-import Menu from './component/menu/menu';
 import Info from './component/info/info';
 import Dashboard from './component/dashboard/dashboard';
 // import { Switch, Route } from "react-router-dom";
