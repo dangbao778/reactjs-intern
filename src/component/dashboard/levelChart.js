@@ -14,7 +14,7 @@ import missedNumberCircle from '../img/circle4.png'
 import missedNumberGroup from '../img/Group4.png'
 
 
-class Chart extends Component {
+class LevelChart extends Component {
     render(){
         return (
             <div className={chart.app}>
@@ -81,4 +81,4 @@ class Chart extends Component {
         }
     }
     
-    export default Chart;
+    export default LevelChart;

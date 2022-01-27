@@ -113,6 +113,13 @@
 .app .container .monitor .statusMonitor{
     display: flex;
 }
+.app .container .monitor .statusMonitor .left_overview .percent_orange_img img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
 .app .container .monitor .statusMonitor .middle_overview .number span{
     font-family: Nunito;
     font-style: normal;
@@ -195,6 +202,13 @@
     background: #FFFFFF;
     box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
     border-radius: 12px;
+}
+.app .container .service .statusService .left_overview .percent_blue_img img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 .app .container .service .statusService{
     display: flex;
@@ -284,6 +298,13 @@
 }
 .app .container .level .statusLevel{
     display: flex;
+}
+.app .container .level .statusLevel .left_overview .percentgreen_img img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 .app .container .level .statusLevel .middle_overview .number span{
     font-family: Nunito;

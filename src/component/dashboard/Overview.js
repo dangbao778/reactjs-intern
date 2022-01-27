@@ -3,10 +3,14 @@ import overview from './css/global.module.css';
 import { BrowserRouter as Router, Route, Routes,Switch, Link } from 'react-router-dom';
 import account from '../img/image-account.png'
 import Calendar from './Calender';
-import monitor from '../img/monitorOverview.png'
+import monitor from '../img/monitorOverview.png';
 import service from '../img/serviceOverview.png'
 import level from '../img/levelOverview.png'
 import { over } from 'lodash-es';
+import precent_orange from '../img/overview_percentorange.png';
+import precent_blue from '../img/overview_percentblue.png';
+import precent_green from '../img/overview_percentgreen.png';
+
 
 
 class Overview extends Component {
@@ -31,7 +35,11 @@ class Overview extends Component {
                         <div className={overview.title}><span>Tổng quan</span></div>
                         <div className={overview.monitor}>
                             <div className={overview.statusMonitor}>
-                                <div className={overview.left_overview}></div>
+                                <div className={overview.left_overview}>
+                                    <div className={overview.percent_orange_img}>
+                                        <img src={precent_orange} alt='precent_orange'></img>
+                                    </div>
+                                </div>
                                 <div className={overview.middle_overview}>
                                     <div className={overview.number}><span>4.221</span>
                                     <div className={overview.title}>   
@@ -56,7 +64,11 @@ class Overview extends Component {
                         </div>
                         <div className={overview.service}>
                             <div className={overview.statusService}>
-                                <div className={overview.left_overview}></div>
+                                <div className={overview.left_overview}>
+                                    <div className={overview.percent_blue_img}>
+                                        <img src={precent_blue} alt='precent_blue'></img>
+                                    </div>
+                                </div>
                                 <div className={overview.middle_overview}>
                                     <div className={overview.number}><span>4.221</span>
                                     <div className={overview.title}>   
@@ -81,7 +93,11 @@ class Overview extends Component {
                         </div>
                         <div className={overview.level}>
                             <div className={overview.statusLevel}>
-                                <div className={overview.left_overview}></div>
+                                <div className={overview.left_overview}>
+                                    <div className={overview.percentgreen_img}>
+                                        <img src={precent_green} alt='precent_green'></img>
+                                    </div>
+                                </div>
                                 <div className={overview.middle_overview}>
                                     <div className={overview.number}><span>4.221</span>
                                     <div className={overview.title}>   
