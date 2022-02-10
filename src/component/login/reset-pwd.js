@@ -31,7 +31,7 @@ export default function ResetPass() {
                             <div className={reset.icon}><i onClick={togglePasswordVisiblity} class="far fa-eye-slash"></i></div>
                     </div>
                     <div>
-                    <button><Link to='/login'>Xác nhận</Link></button>
+                    <Link to='/login'><button>Xác nhận</button></Link>
                     </div>
                 </form>
             </div>

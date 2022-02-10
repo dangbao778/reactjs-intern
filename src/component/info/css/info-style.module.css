@@ -110,9 +110,65 @@
     margin: 1% 0% 0% 0 ;
 }
 .app .InfocontainerRight .containerRightcontent .Infoaccount .icon{
-    margin: 1.5% 2% 0 0;
     color: #FFAC6A;
     background: #FFF2E7;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    position: absolute;
+    margin-left: 61%;
+    margin-top: 1.6%;
+}
+.app .containerRightcontent .Infoaccount .icon .dropdown_content{
+    position: absolute;
+    display: none;
+    background: #FFFFFF;
+    right: 0;
+    width: 360px;
+    height: 526px;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 10px;
+    overflow-y: scroll;
+    top: 59px;
+    left: -150px;
+}
+.app .containerRightcontent .Infoaccount .icon .dropdown_content .title{
+    position: absolute;
+    width: 360px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: #FF9138;
+}
+.app .containerRightcontent .Infoaccount .icon .dropdown_content .name{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BF5805;
+}
+.app .containerRightcontent .Infoaccount .icon .dropdown_content .time{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+}
+.app .containerRightcontent .Infoaccount .icon .dropdown_content a{
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    position: static;
+}
+.app .containerRightcontent .Infoaccount .icon:hover .dropdown_content{
+    display: block;
+}
+.app .containerRightcontent .Infoaccount .icon:hover
+.app .containerRightcontent .Infoaccount .icon .dropdown_content a:hover{
+    background-color: #f1f1f1;
 }
 .app .InfocontainerRight .containerRightFrom{
     position: absolute;

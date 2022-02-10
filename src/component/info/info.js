@@ -42,7 +42,56 @@ render(){
                                 <div className={info.name}><p>Lê Quỳnh Ái Vân</p></div>
                             </div>
                             <img src={account} alt='image-account'></img>
-                            <div className={info.icon}><i class="fas fa-bell"></i></div>
+                            <div className={info.icon}>
+                            <i class="fas fa-bell" ></i>
+                            <div className={info.dropdown_content}>
+                                <span className={info.title}>Thông báo</span>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Nguyễn Thị Thùy Dung</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Nguyễn Thiên Chinh</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Võ Thị Kim Liên</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Hoàng Nguyễn Quốc Huy</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Võ Ngọc Lan Anh</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Nguyễn Thị Trúc Anh</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Nguyễn Trung Toàn</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Phạm Hồng Ngọc</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Hồ Trung Hiếu</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Hoàng Duy Phước</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={info.name}>Người dùng: Trương Ngọc Nguyên</span><br />
+                                    <span className={info.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                            </div>
+                        </div>
                         </div>
                     </div>
                         <div className={info.containerRightFrom}>

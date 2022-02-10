@@ -19,14 +19,15 @@ render(){
                 <div className={menu.Infocontainerleft}>
                     <div className={menu.logo}><img src={logo} alt='logo'></img></div>
                     <div className={menu.menuBar}>
-                        <div><img src={dashboard} alt='dashboard'></img><a href='#'>Dashboard</a></div>
+                        <Link to='/dashboard'><div className={menu.dashboard}><img src={dashboard} alt='dashboard'></img><span>Dashboard</span></div></Link>
+                        
                         <div><img src={monitor} alt='monitor'></img><a href='#'>Thiết bị</a></div>
                         <div><img src={service} alt='service'></img><a href='#'>Dịch vụ</a></div>
                         <div><img src={level} alt='level'></img><a href='#'>Cấp số</a></div>
                         <div><img src={report} alt='report'></img><a href='#'>Báo cáo</a></div>
                         <div><img src={setting} alt='setting'></img><a href='#' >Cài đặt hệ thống <i class="fas fa-ellipsis-v"></i></a></div>
                     </div>
-                    <div className={menu.logout}><i class="fas fa-sign-out-alt"></i><a><Link to='/login'>Đăng xuất</Link></a></div>
+                    <Link to='/login'><div className={menu.logout}><i class="fas fa-sign-out-alt"></i><a>Đăng xuất</a></div></Link>
                 </div>
             </div>
             {/* <div className={menu.InfocontainerRight}>

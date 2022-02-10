@@ -34,6 +34,13 @@
     color: #7E7D88;
     padding: 15px;
 }
+.app .Infocontainerleft .menuBar div span{
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    color: #7E7D88;
+    padding: 15px;
+}
 .app .Infocontainerleft .menuBar div img{
     padding: 15px;
 }
@@ -45,6 +52,14 @@
     color: #FF7506;
     text-decoration: none;
     text-align: center;
+}
+.app .Infocontainerleft .menuBar:hover .dashboard,
+.dashboard:hover {
+    background-color: #FF7506;
+    display: block;
+}
+.app .Infocontainerleft .menuBar .dashboard{
+    padding: 12px 12px;
 }
 .app .InfocontainerRight{
     width: 85%;

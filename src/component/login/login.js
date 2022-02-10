@@ -29,10 +29,10 @@ export default function Login() {
                         /><div className={styles.icon}><i onClick={togglePasswordVisiblity} class="far fa-eye-slash"></i></div>
                     </div>
                         <div className={styles.fgPass}>
-                            <div><Link to='/forgot_pw'><p>Quên mật khẩu</p></Link></div>
+                        <Link to='/forgot_pw'><div><p>Quên mật khẩu</p></div></Link>
                         </div>
                     <div>
-                        <button><Link to='/info'>Đăng nhập</Link></button>
+                    <Link to='/info'><button>Đăng nhập</button></Link>
                     </div>
                 </form>
             </div>

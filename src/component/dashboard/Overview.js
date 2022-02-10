@@ -6,10 +6,10 @@ import Calendar from './Calender';
 import monitor from '../img/monitorOverview.png';
 import service from '../img/serviceOverview.png'
 import level from '../img/levelOverview.png'
-import { over } from 'lodash-es';
 import precent_orange from '../img/overview_percentorange.png';
 import precent_blue from '../img/overview_percentblue.png';
 import precent_green from '../img/overview_percentgreen.png';
+import { over } from 'lodash-es';
 
 
 
@@ -26,10 +26,60 @@ class Overview extends Component {
                             <div className={overview.hello}><p>Xin chào</p></div>
                             <div className={overview.name}><p>Lê Quỳnh Ái Vân</p></div>
                         </div>
-                        <img src={account} alt='image-account'></img>
+                        <Link to='/info'><img src={account} alt='image-account'></img></Link>
                         <div className={overview.background}></div>
-                        <div className={overview.icon}><i class="fas fa-bell"></i></div>
-                        
+                        {/* <Link to='/info'> */}
+                        <div className={overview.icon}>
+                            <i class="fas fa-bell" ></i>
+                            <div className={overview.dropdown_content}>
+                                <span className={overview.title}>Thông báo</span>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Nguyễn Thị Thùy Dung</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Nguyễn Thiên Chinh</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Võ Thị Kim Liên</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Hoàng Nguyễn Quốc Huy</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Võ Ngọc Lan Anh</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Nguyễn Thị Trúc Anh</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Nguyễn Trung Toàn</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Phạm Hồng Ngọc</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Hồ Trung Hiếu</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Hoàng Duy Phước</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                                <a href='#'>
+                                    <span className={overview.name}>Người dùng: Trương Ngọc Nguyên</span><br />
+                                    <span className={overview.time}>Thời gian nhận số: 12h20 ngày 30/11/2021</span>
+                                </a>
+                            </div>
+                        </div>
+                        {/* </Link> */}
                     </div>
                     <div className={overview.all}>
                         <div className={overview.title}><span>Tổng quan</span></div>
