@@ -6,6 +6,7 @@ import ForgetPass from './component/login/forgot-pass';
 import { BrowserRouter as Router, Route, Routes,Switch,Link } from 'react-router-dom';
 import Info from './component/info/info';
 import Dashboard from './component/dashboard/dashboard';
+import Device from './component/device/device';
 // import { Switch, Route } from "react-router-dom";
 // import { Routes,Router } from 'react-router-dom';
 
@@ -27,6 +28,9 @@ return (
                 </Route>
                 <Route path="/dashboard">
                     <Dashboard />
+                </Route>
+                <Route path="/device">
+                    <Device />
                 </Route>
             </Switch>
         </Router>
