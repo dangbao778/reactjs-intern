@@ -4,6 +4,7 @@ import Menu from '../menu/menu';
 import style from './css/device-style.module.css';
 import img_user_account from "../img/image-account.png"
 import Device_content from './device_content';
+import { BrowserRouter as Router, Route,Switch,Link } from 'react-router-dom';
 
 export default function Device() {
         const history = useHistory();
@@ -15,7 +16,8 @@ export default function Device() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p><a className={style.top_main_title}>Thiết bị</a> Thông tin cá nhân</p>
+                                <p><a className={style.top_main_title}>Thiết bị > </a><span className={style.list_device}>Danh sách thiết bị</span> </p>
+                                
                             </div>
                             <div className={style.right_title}>
                                 <div className={style.alarm_button}>

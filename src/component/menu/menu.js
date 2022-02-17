@@ -21,7 +21,7 @@ render(){
                     <div className={menu.menuBar}>
                         <Link to='/dashboard'><div className={menu.dashboard}><img src={dashboard} alt='dashboard'></img><span>Dashboard</span></div></Link>
                         
-                        <div><img src={monitor} alt='monitor'></img><a href='#'>Thiết bị</a></div>
+                        <Link to='/device'><div className={menu.monitor}><img src={monitor} alt='monitor'></img><a href='#'>Thiết bị</a></div></Link>
                         <div><img src={service} alt='service'></img><a href='#'>Dịch vụ</a></div>
                         <div><img src={level} alt='level'></img><a href='#'>Cấp số</a></div>
                         <div><img src={report} alt='report'></img><a href='#'>Báo cáo</a></div>

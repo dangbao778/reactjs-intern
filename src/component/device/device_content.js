@@ -179,12 +179,15 @@ export default function Device_content() {
                     </div>
                     
                 </div>
+                <Link to='/add_device'>
                 <div className={style.add_device}>
                     <div className={style.total_add_device}>
                         <div className={`${style.add} fas fa-plus`}></div>
                         <div className={style.add_title}><a>Thêm thiết bị</a></div>
                     </div>
                 </div>
+                </Link>
+                
             </div>
         );
     }
