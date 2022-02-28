@@ -11,6 +11,8 @@ import add_Device from './component/device/add_device';
 import add_Device_content from './component/device/add_device_content';
 import DeviceAdd from './component/device/add_device';
 import DeviceAdd_Content from './component/device/add_device_content';
+import DeviceInfo from './component/device/device_info';
+import DeviceUpdate from './component/device/device_update';
 // import { Switch, Route } from "react-router-dom";
 // import { Routes,Router } from 'react-router-dom';
 
@@ -41,6 +43,12 @@ return (
                 </Route>
                 <Route path="/add_device">
                     <DeviceAdd />
+                </Route>
+                <Route path="/info_device">
+                    <DeviceInfo />
+                </Route>
+                <Route path="/update_device">
+                    <DeviceUpdate />
                 </Route>
             </Switch>
         </Router>

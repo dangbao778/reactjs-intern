@@ -70,8 +70,8 @@ export default function Device_content() {
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -80,8 +80,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -90,8 +90,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -100,8 +100,8 @@ export default function Device_content() {
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -110,8 +110,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -120,8 +120,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -130,8 +130,8 @@ export default function Device_content() {
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -140,8 +140,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -150,8 +150,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -160,8 +160,8 @@ export default function Device_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td><Link to="/info_device">Chi tiết</Link></td>
+                            <td><Link to="/update_device">Cập nhập</Link></td>
                         </tr>
                     </table>
                     <div>

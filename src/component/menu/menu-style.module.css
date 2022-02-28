@@ -16,7 +16,7 @@
 }
 .app .Infocontainerleft .menuBar{
     left: 4px;
-    width: 30%;
+    width: 100%;
     height: 100%;
     font-family: Nunito;
     font-style: normal;
@@ -27,16 +27,11 @@
     display: block;
     float: left;
 }
-.app .Infocontainerleft .menuBar div a{
-    position: absolute;
-    text-align: left;
-    text-decoration: none;
-    color: #7E7D88;
-    padding: 15px;
-}
+/* .app .Infocontainerleft .menuBar .dashboard_title{
+    width: 250%;
+} */
 .app .Infocontainerleft .menuBar div span{
     position: absolute;
-    text-align: left;
     text-decoration: none;
     color: #7E7D88;
     padding: 15px;
@@ -53,14 +48,17 @@
     text-decoration: none;
     text-align: center;
 }
-.app .Infocontainerleft .menuBar:hover .dashboard,
-.dashboard:hover {
+.app .Infocontainerleft .menuBar:hover .dashboard_title:hover {
+    background-color: #FF7506;
+    /* display: block; */
+}
+.app .Infocontainerleft .menuBar:hover .monitor:hover {
     background-color: #FF7506;
     display: block;
 }
-.app .Infocontainerleft .menuBar .dashboard{
+/* .app .Infocontainerleft .menuBar .dashboard{
     padding: 12px 12px;
-}
+} */
 .app .InfocontainerRight{
     width: 85%;
     height: 100vh;

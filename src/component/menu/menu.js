@@ -19,15 +19,15 @@ render(){
                 <div className={menu.Infocontainerleft}>
                     <div className={menu.logo}><img src={logo} alt='logo'></img></div>
                     <div className={menu.menuBar}>
-                        <Link to='/dashboard'><div className={menu.dashboard}><img src={dashboard} alt='dashboard'></img><span>Dashboard</span></div></Link>
+                        <Link to='/dashboard'><div className={menu.dashboard_title}><img src={dashboard} alt='dashboard'></img><span>Dashboard</span></div></Link>
                         
-                        <Link to='/device'><div className={menu.monitor}><img src={monitor} alt='monitor'></img><a href='#'>Thiết bị</a></div></Link>
-                        <div><img src={service} alt='service'></img><a href='#'>Dịch vụ</a></div>
-                        <div><img src={level} alt='level'></img><a href='#'>Cấp số</a></div>
-                        <div><img src={report} alt='report'></img><a href='#'>Báo cáo</a></div>
-                        <div><img src={setting} alt='setting'></img><a href='#' >Cài đặt hệ thống <i class="fas fa-ellipsis-v"></i></a></div>
+                        <Link to='/device'><div className={menu.monitor}><img src={monitor} alt='monitor'></img><span>Thiết bị</span></div></Link>
+                        <div><img src={service} alt='service'></img><span>Dịch vụ</span></div>
+                        <div><img src={level} alt='level'></img><span>Cấp số</span></div>
+                        <div><img src={report} alt='report'></img><span>Báo cáo</span></div>
+                        <div><img src={setting} alt='setting'></img><span>Cài đặt hệ thống <i class="fas fa-ellipsis-v"></i></span></div>
                     </div>
-                    <Link to='/login'><div className={menu.logout}><i class="fas fa-sign-out-alt"></i><a>Đăng xuất</a></div></Link>
+                    <Link to='/login'><div className={menu.logout}><i class="fas fa-sign-out-alt"></i><span>Đăng xuất</span></div></Link>
                 </div>
             </div>
             {/* <div className={menu.InfocontainerRight}>
