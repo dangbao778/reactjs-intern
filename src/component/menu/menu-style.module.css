@@ -39,21 +39,28 @@
 .app .Infocontainerleft .menuBar div img{
     padding: 15px;
 }
-.app .Infocontainerleft .logout{
+.app .Infocontainerleft .dashboard_logout{
     margin-top: 750px;
     background: #FFF2E7;
     border-radius: 8px;
     padding: 12px;
-    color: #FF7506;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
+}
+.app .Infocontainerleft .dashboard_logout .logout{
+    text-decoration: none;
+    color: #FF7506;
 }
 .app .Infocontainerleft .menuBar:hover .dashboard_title:hover {
-    background-color: #FF7506;
+    background-color: #ffdab9;
     /* display: block; */
 }
 .app .Infocontainerleft .menuBar:hover .monitor:hover {
-    background-color: #FF7506;
+    background-color: #ffdab9;
+    display: block;
+}
+.app .Infocontainerleft .menuBar:hover .service:hover {
+    background-color: #ffdab9;
     display: block;
 }
 /* .app .Infocontainerleft .menuBar .dashboard{

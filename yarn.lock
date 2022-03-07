@@ -8021,10 +8021,10 @@ react-calendar@^3.6.0:
     merge-class-names "^1.1.1"
     prop-types "^15.6.0"
 
-react-datepicker@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.npmjs.org/react-datepicker/-/react-datepicker-4.6.0.tgz"
-  integrity sha512-JGSQnQSQYUkS7zvSaZuyHv5lxp3wMrN7GXV0VA0E9Ax9fL3Bb6E1pSXjL6C3WoeuV8dt/mItQfRkPpRGCrl/OA==
+react-datepicker@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-4.7.0.tgz#75e03b0a6718b97b84287933307faf2ed5f03cf4"
+  integrity sha512-FS8KgbwqpxmJBv/bUdA42MYqYZa+fEYcpc746DZiHvVE2nhjrW/dg7c5B5fIUuI8gZET6FOzuDgezNcj568Czw==
   dependencies:
     "@popperjs/core" "^2.9.2"
     classnames "^2.2.6"

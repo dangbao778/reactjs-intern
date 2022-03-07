@@ -13,6 +13,9 @@ import DeviceAdd from './component/device/add_device';
 import DeviceAdd_Content from './component/device/add_device_content';
 import DeviceInfo from './component/device/device_info';
 import DeviceUpdate from './component/device/device_update';
+import Service from './component/service/dashboard_service/service';
+import Service_content from './component/service/dashboard_service/service_content';
+import Addservice from './component/service/add_service/add_service';
 // import { Switch, Route } from "react-router-dom";
 // import { Routes,Router } from 'react-router-dom';
 
@@ -49,6 +52,15 @@ return (
                 </Route>
                 <Route path="/update_device">
                     <DeviceUpdate />
+                </Route>
+                <Route path="/service">
+                    <Service />
+                </Route>
+                <Route path="/service_content">
+                    <Service_content />
+                </Route>
+                <Route path="/add_service">
+                    <Addservice />
                 </Route>
             </Switch>
         </Router>

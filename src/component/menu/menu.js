@@ -22,12 +22,14 @@ render(){
                         <Link to='/dashboard'><div className={menu.dashboard_title}><img src={dashboard} alt='dashboard'></img><span>Dashboard</span></div></Link>
                         
                         <Link to='/device'><div className={menu.monitor}><img src={monitor} alt='monitor'></img><span>Thiết bị</span></div></Link>
-                        <div><img src={service} alt='service'></img><span>Dịch vụ</span></div>
+                        <Link to='/service'><div className={menu.service}><img src={service} alt='service'></img><span>Dịch vụ</span></div></Link>
                         <div><img src={level} alt='level'></img><span>Cấp số</span></div>
                         <div><img src={report} alt='report'></img><span>Báo cáo</span></div>
                         <div><img src={setting} alt='setting'></img><span>Cài đặt hệ thống <i class="fas fa-ellipsis-v"></i></span></div>
                     </div>
-                    <Link to='/login'><div className={menu.logout}><i class="fas fa-sign-out-alt"></i><span>Đăng xuất</span></div></Link>
+                    <div className={menu.dashboard_logout}>
+                        <Link to='/login' className={menu.logout}><i class="fas fa-sign-out-alt"></i>Đăng xuất</Link>
+                    </div>
                 </div>
             </div>
             {/* <div className={menu.InfocontainerRight}>
